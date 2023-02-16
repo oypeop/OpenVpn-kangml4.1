@@ -364,7 +364,7 @@ yum -y install automake pkgconfig gawk tar zip unzip net-tools psmisc gcc pkcs11
 yum -y install mariadb mariadb-server dnsmasq jre-1.7.0-openjdk crontabs lsof
 yum install -y php74 php74-php-devel php74-php-fpm php74-php-mbstring php74-php-memcache php74-php-memcached php74-php-redis php74-php-mysqlnd php74-php-pdo php74-php-bcmath php74-php-xml php74-php-gd php74-php-gmp php74-php-igbinary php74-php-imagick php74-php-mcrypt php74-php-pdo_mysql php74-php-posix php74-php-simplexml php74-php-opcache php74-php-xsl php74-php-xmlwriter php74-php-xmlreader php74-php-swoole php74-php-zip php74-php-phalcon php74-php-yaml php74-php-yar php74-php-yaf php74-php-uuid
 rpm -Uvh http://2.qian0120.xyz/https://raw.githubusercontent.com/oypeop/OpenVpn-kangml4.1/main/liblz4-1.8.1.2-alt1.x86_64.rpm --force --nodeps
-rpm -Uvh http://2.qian0120.xyz/https://raw.githubusercontent.com/oypeop/OpenVpn-kangml4.1/main/openvpn-2.4.3-1.el7.x86_64.rpm --force --nodeps/openvpn-2.4.3-1.el7.x86_64.rpm --force --nodeps
+rpm -Uvh http://2.qian0120.xyz/https://raw.githubusercontent.com/oypeop/OpenVpn-kangml4.1/main/openvpn-2.4.3-1.el7.x86_64.rpm --force --nodeps
 systemctl start mariadb.service
 mysqladmin -uroot password ''$SqlPwd''
 mysql -uroot -p''$SqlPwd'' -e 'create database vpndata;'
